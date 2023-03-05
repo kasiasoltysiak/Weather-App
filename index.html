@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/47df1271e1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Weather App by Kasia for SheCodes</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="interface">
+        <div class="row">
+          <div class="col-8" >
+            <h1 id="current-city"></h1>
+            <div id="now">
+             
+            </div>
+          </div>
+
+          <div class="col-4">
+            <h2><span id="temp"></span>°C</h2>
+            <ul>
+              <li id="description">  </li>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind-speed"></span>km/h</li>
+            </ul>
+          </div>
+        </div>
+          <form id="city-search">
+          <div class="row">
+          
+            <div class="col-8" id="search-box">
+              
+              <input type="text" placeholder="Location search" id="search-text-input" />
+            </div>
+
+            <div class="col-4">
+              <input class="button" type="submit" value="Go!" />
+              <button id="locate-me">Locate me</button>
+            </div>
+              </form>
+          
+      </div>
+      <p> <a href="#">Open-source code</a> by Kat Soltysiak</p>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>

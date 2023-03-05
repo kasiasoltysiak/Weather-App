@@ -1,0 +1,50 @@
+body {
+  margin: 60px;
+  color: white;
+}
+.interface {
+  max-width: 600px;
+  border-radius: 30px;
+  margin: 0 auto;
+  padding: 40px;
+  background: linear-gradient(to right, rgb(255, 177, 161), rgb(255, 168, 94));
+}
+ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+h2 {
+  font-size: 64px;
+  font-weight: 700;
+}
+h1 {
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button,
+.button {
+  padding: 6px;
+  width: 100%;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 20px;
+  display: block;
+  margin-top: 10px;
+}
+#search-text-input {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  font-size: 32px;
+  color: white;
+  font-weight: 600;
+}
+ul.forecast li {
+  display: inline;
+}
